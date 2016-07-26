@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ItemsActivity">
+
+
+    <ImageView
+        android:id="@+id/foto_img"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/layout_margin"
+        />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:isIndicator="true"
+        android:max="100"
+        android:numStars="5"
+        android:stepSize="0.01" />
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/item_text_size"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/layout_margin"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/item_text_size"
+        android:textStyle="bold"
+        android:text="@string/followers"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

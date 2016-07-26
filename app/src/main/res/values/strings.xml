@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GitHubUsers</string>
+
+    <!-- Strings related to login -->
+    <string name="followers">Followers  %1$d</string>
+    <string name="no_internet">No internet connections!</string>
+    <string name="error">Oops error happened something go wrong try again a bit letter.</string>
+    <string name="prompt_email">Login</string>
+    <string name="search">Search</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This login address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_search">SearchActivity</string>
+</resources>
